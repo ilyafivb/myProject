@@ -6,7 +6,8 @@ class UsersVC: UIViewController {
     private var tableView = UITableView()
     private let networking = Networking()
     
-    var users: [User] = [] {
+    var user: User?
+    private var users: [User] = [] {
         didSet {
             tableView.reloadData()
         }
@@ -39,6 +40,13 @@ class UsersVC: UIViewController {
         }
         tableView.fillContainer()
     }
+    
+    private func showUserInfo(user: User) {
+        let userInfo = UserInfoVC()
+        userInfo.user = user
+        navigationController?.pushViewController(userInfo, animated: true)
+        
+    }
 }
 
 extension UsersVC: UITableViewDelegate, UITableViewDataSource {
@@ -50,5 +58,10 @@ extension UsersVC: UITableViewDelegate, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: UsersTableViewCell.id, for: indexPath) as! UsersTableViewCell
         cell.setupCell(user: users[indexPath.row])
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let user = users[indexPath.row]
+        showUserInfo(user: user)
     }
 }

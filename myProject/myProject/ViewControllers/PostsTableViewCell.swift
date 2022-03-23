@@ -56,5 +56,4 @@ class PostsTableViewCell: UITableViewCell {
         titleLabel.text = "Title: \(post.title)"
         bodyLabel.text = "Body: \(post.body)"
     }
-    
 }

@@ -10,7 +10,7 @@ class UsersTableViewCell: UITableViewCell {
     private let emailLabel = UILabel()
     //let address: UserAddress?
     private let phoneLabel = UILabel()
-    private let website = UILabel()
+    private let websiteLabel = UILabel()
     //let company: UserCompany?
     private let stackView = UIStackView()
     
@@ -33,7 +33,7 @@ class UsersTableViewCell: UITableViewCell {
         stackView.addArrangedSubview(usernameLabel)
         stackView.addArrangedSubview(emailLabel)
         stackView.addArrangedSubview(phoneLabel)
-        stackView.addArrangedSubview(website)
+        stackView.addArrangedSubview(websiteLabel)
         
         stackView.axis = .vertical
         stackView.alignment = .fill
@@ -55,6 +55,6 @@ class UsersTableViewCell: UITableViewCell {
         usernameLabel.text = "Username: \(user.username)"
         emailLabel.text = "Email: \(user.email)"
         phoneLabel.text = "Phone: \(user.phone)"
-        website.text = "Website: \(user.website)"
+        websiteLabel.text = "Website: \(user.website)"
     }
 }
