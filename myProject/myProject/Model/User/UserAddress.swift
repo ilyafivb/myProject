@@ -1,9 +1,9 @@
 import Foundation
 
-struct UserAddress {
+struct UserAddress: Codable {
     var street: String
     var suite: String
     var city: String
     var zipcode: String
-    var geo: UserGEO
+    var geo: UserGEO?
 }

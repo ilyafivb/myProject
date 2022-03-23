@@ -8,35 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		047A439C27E8B31400E72D9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A439B27E8B31400E72D9F /* AppDelegate.swift */; };
-		047A439E27E8B31400E72D9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A439D27E8B31400E72D9F /* SceneDelegate.swift */; };
-		047A43A027E8B31400E72D9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A439F27E8B31400E72D9F /* ViewController.swift */; };
+		047A43A027E8B31400E72D9F /* UsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A439F27E8B31400E72D9F /* UsersVC.swift */; };
 		047A43A327E8B31400E72D9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047A43A127E8B31400E72D9F /* Main.storyboard */; };
 		047A43A527E8B31400E72D9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047A43A427E8B31400E72D9F /* Assets.xcassets */; };
 		047A43A827E8B31400E72D9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047A43A627E8B31400E72D9F /* LaunchScreen.storyboard */; };
 		047A43B127E8B37400E72D9F /* Stevia in Frameworks */ = {isa = PBXBuildFile; productRef = 047A43B027E8B37400E72D9F /* Stevia */; };
-		047A43B327E8B5BC00E72D9F /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A43B227E8B5BC00E72D9F /* MyTableViewCell.swift */; };
+		047A43B327E8B5BC00E72D9F /* UsersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A43B227E8B5BC00E72D9F /* UsersTableViewCell.swift */; };
 		047A43B527E8BA1B00E72D9F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A43B427E8BA1B00E72D9F /* User.swift */; };
 		047A43B727E8BA9400E72D9F /* UserAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A43B627E8BA9400E72D9F /* UserAddress.swift */; };
 		047A43B927E8BB5300E72D9F /* UserGEO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A43B827E8BB5300E72D9F /* UserGEO.swift */; };
 		047A43BB27E8BBD300E72D9F /* UserCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A43BA27E8BBD300E72D9F /* UserCompany.swift */; };
 		047A43BE27E8BC9E00E72D9F /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A43BD27E8BC9E00E72D9F /* Networking.swift */; };
+		047A43C227E9CA3200E72D9F /* PostsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A43C127E9CA3200E72D9F /* PostsVC.swift */; };
+		047A43C527E9CBAC00E72D9F /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A43C427E9CBAC00E72D9F /* Post.swift */; };
+		047A43C727E9CE6E00E72D9F /* PostsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A43C627E9CE6E00E72D9F /* PostsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		047A439827E8B31400E72D9F /* myProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047A439B27E8B31400E72D9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		047A439D27E8B31400E72D9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		047A439F27E8B31400E72D9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		047A439F27E8B31400E72D9F /* UsersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersVC.swift; sourceTree = "<group>"; };
 		047A43A227E8B31400E72D9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		047A43A427E8B31400E72D9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047A43A727E8B31400E72D9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047A43A927E8B31400E72D9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		047A43B227E8B5BC00E72D9F /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		047A43B227E8B5BC00E72D9F /* UsersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewCell.swift; sourceTree = "<group>"; };
 		047A43B427E8BA1B00E72D9F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		047A43B627E8BA9400E72D9F /* UserAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAddress.swift; sourceTree = "<group>"; };
 		047A43B827E8BB5300E72D9F /* UserGEO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGEO.swift; sourceTree = "<group>"; };
 		047A43BA27E8BBD300E72D9F /* UserCompany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCompany.swift; sourceTree = "<group>"; };
 		047A43BD27E8BC9E00E72D9F /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		047A43C127E9CA3200E72D9F /* PostsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsVC.swift; sourceTree = "<group>"; };
+		047A43C427E9CBAC00E72D9F /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		047A43C627E9CE6E00E72D9F /* PostsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,12 +74,10 @@
 		047A439A27E8B31400E72D9F /* myProject */ = {
 			isa = PBXGroup;
 			children = (
+				047A43C027E9C9B700E72D9F /* ViewControllers */,
 				047A43BF27E8BCC500E72D9F /* Service */,
 				047A43BC27E8BC5E00E72D9F /* Model */,
 				047A439B27E8B31400E72D9F /* AppDelegate.swift */,
-				047A439D27E8B31400E72D9F /* SceneDelegate.swift */,
-				047A439F27E8B31400E72D9F /* ViewController.swift */,
-				047A43B227E8B5BC00E72D9F /* MyTableViewCell.swift */,
 				047A43A127E8B31400E72D9F /* Main.storyboard */,
 				047A43A427E8B31400E72D9F /* Assets.xcassets */,
 				047A43A627E8B31400E72D9F /* LaunchScreen.storyboard */,
@@ -87,10 +89,8 @@
 		047A43BC27E8BC5E00E72D9F /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				047A43B427E8BA1B00E72D9F /* User.swift */,
-				047A43BA27E8BBD300E72D9F /* UserCompany.swift */,
-				047A43B827E8BB5300E72D9F /* UserGEO.swift */,
-				047A43B627E8BA9400E72D9F /* UserAddress.swift */,
+				047A43C327E9CB9000E72D9F /* User */,
+				047A43C427E9CBAC00E72D9F /* Post.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -101,6 +101,28 @@
 				047A43BD27E8BC9E00E72D9F /* Networking.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		047A43C027E9C9B700E72D9F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				047A439F27E8B31400E72D9F /* UsersVC.swift */,
+				047A43B227E8B5BC00E72D9F /* UsersTableViewCell.swift */,
+				047A43C127E9CA3200E72D9F /* PostsVC.swift */,
+				047A43C627E9CE6E00E72D9F /* PostsTableViewCell.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		047A43C327E9CB9000E72D9F /* User */ = {
+			isa = PBXGroup;
+			children = (
+				047A43B427E8BA1B00E72D9F /* User.swift */,
+				047A43BA27E8BBD300E72D9F /* UserCompany.swift */,
+				047A43B827E8BB5300E72D9F /* UserGEO.swift */,
+				047A43B627E8BA9400E72D9F /* UserAddress.swift */,
+			);
+			path = User;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,15 +202,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				047A43A027E8B31400E72D9F /* ViewController.swift in Sources */,
-				047A43B327E8B5BC00E72D9F /* MyTableViewCell.swift in Sources */,
+				047A43A027E8B31400E72D9F /* UsersVC.swift in Sources */,
+				047A43B327E8B5BC00E72D9F /* UsersTableViewCell.swift in Sources */,
+				047A43C227E9CA3200E72D9F /* PostsVC.swift in Sources */,
 				047A43BB27E8BBD300E72D9F /* UserCompany.swift in Sources */,
 				047A43BE27E8BC9E00E72D9F /* Networking.swift in Sources */,
 				047A439C27E8B31400E72D9F /* AppDelegate.swift in Sources */,
+				047A43C727E9CE6E00E72D9F /* PostsTableViewCell.swift in Sources */,
 				047A43B727E8BA9400E72D9F /* UserAddress.swift in Sources */,
 				047A43B527E8BA1B00E72D9F /* User.swift in Sources */,
 				047A43B927E8BB5300E72D9F /* UserGEO.swift in Sources */,
-				047A439E27E8B31400E72D9F /* SceneDelegate.swift in Sources */,
+				047A43C527E9CBAC00E72D9F /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,7 +366,6 @@
 				INFOPLIST_FILE = myProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -371,7 +394,6 @@
 				INFOPLIST_FILE = myProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
