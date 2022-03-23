@@ -1,6 +1,6 @@
 import Foundation
 
-struct UserGEO {
+struct UserGEO: Codable {
     var lat: String
     var lng: String
 }
